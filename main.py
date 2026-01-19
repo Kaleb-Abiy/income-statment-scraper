@@ -194,8 +194,6 @@ def get_data_points(page):
                     pass
                 else:
                     final_result.append(result)
-        TOP += ROW_HEIGHT
-        BOTTOM += ROW_HEIGHT
     except Exception as e:
         print(e)
             
