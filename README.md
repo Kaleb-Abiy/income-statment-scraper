@@ -25,10 +25,8 @@ Output CSV file is saved as Income_Statement.csv.
 
 Requirements
 
-Python 3.9+
+- Python 3.9+
 
-pandas
+- pandas
 
-pdfplumber
-
-pip install pandas pdfplumber
+- pdfplumber
