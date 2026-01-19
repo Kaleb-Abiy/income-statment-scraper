@@ -108,11 +108,8 @@ def get_target(splited_text):
         if TARGET_ROW_MAPPING.get(line_item) == 'Costs of revenues':
             line_item = 'Gross profit'
             values = get_gross_profit_values(values)
-
-            return line_item, values
-
     
-        return TARGET_ROW_MAPPING.get(line_item), values
+        return line_item, values
 
     # Handle Basic / Diluted under a section
     if line_item == 'Basic':
@@ -167,9 +164,11 @@ def extract_data_points(line):
         result['q2_2024'] = values[2]
         result['six_months_2025'] = values[3]
         result['six_months_2024'] = values[4]
-        result['unites'] = 'share'
-    # else:
-    #     handle_extra_data(splited_text)
+
+        if line_item in ['EPS-Basic', 'EPS-Diluted', 'Weighted average shares outstanding-Basic', 'Weighted average shares outstanding-Diluted']:
+            result['unit'] = 'per share'
+        else:
+            result['unit'] = 'in thousands'
     
     
     return result

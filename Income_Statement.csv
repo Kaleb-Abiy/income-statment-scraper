@@ -1,9 +1,9 @@
-line_item,q2_2025,q1_2025,q2_2024,six_months_2025,six_months_2024,unites
-Total revenues,51728.0,47778.0,41661.0,99506.0,82971.0,share
-Gross profit,36842.0,34823.0,29431.0,71665.0,57212.0,share
-Operating income,1117.0,-3555.0,264.0,-2438.0,-1696.0,share
-Net Income,1146.0,-3032.0,1705.0,-1886.0,1312.0,share
-EPS-Basic,0.03,-0.08,0.04,-0.05,0.03,share
-EPS-Diluted,0.03,-0.08,0.04,-0.05,0.03,share
-Weighted average shares outstanding-Basic,39148.0,39088.0,38619.0,39118.0,38456.0,share
-Weighted average shares outstanding-Diluted,39260.0,39088.0,39132.0,39118.0,38989.0,share
+line_item,q2_2025,q1_2025,q2_2024,six_months_2025,six_months_2024,unit
+Total revenues,51728,47778,41661,99506,82971,in thousands
+Gross profit,36842,34823,29431,71665,57212,in thousands
+Income (loss) from operations,1117,-3555,264,-2438,-1696,in thousands
+Net income (loss),1146,-3032,1705,-1886,1312,in thousands
+EPS-Basic,0,0,0,0,0,per share
+EPS-Diluted,0,0,0,0,0,per share
+Weighted average shares outstanding-Basic,39148,39088,38619,39118,38456,per share
+Weighted average shares outstanding-Diluted,39260,39088,39132,39118,38989,per share
