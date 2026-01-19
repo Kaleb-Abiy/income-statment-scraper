@@ -5,7 +5,8 @@
 This script extracts financial data from a PDF income statement by using pdfplumber to read the text and a combination of regular expressions and token normalization to identify line items and numeric values. It calculates derived values like Gross Profit and includes sub-items such as Basic and Diluted EPS and Weighted Average Shares Outstanding in the final CSV.
 
 Usage
-**Create Activate your virtual environment first**
+
+**Create and Activate your virtual environment first**
 
 install the required dependencies 
 
